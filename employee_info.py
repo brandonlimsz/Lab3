@@ -7,7 +7,7 @@ employee_data = [
     {"name": "Mike", "age": 32, "department": "Engineering", "salary": 65000},
     {"name": "Peter", "age": 40, "department": "Sales", "salary": 60000}
 ]
-
+print(employee_data[2]["name"])
 def get_employees_by_age_range(age_lower_limit, age_upper_limit):
     result = []
 
